@@ -32,7 +32,7 @@ int main() {
         } else if (guess < correct_num) {
             std::cout << "Your number is too small. Try again!" << std::endl;
         } else {
-            std::cout << "You have done it! " << "You guessed the number "
+            std::cout << "You've done it! " << "You guessed the number "
                 << correct_num << " in " << k << " guesses!" << std::endl;
             break;
         }
