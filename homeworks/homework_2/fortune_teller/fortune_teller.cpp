@@ -13,7 +13,7 @@ const std::vector<std::string> endings = {"eats UB for breakfast",
 int main() {
     std::vector<std::string> adjectives{};
     std::cout << "Welcome to the fortune teller program!" << std::endl;
-    std::cout << "Please enter your name: " << std::endl;
+    std::cout << "Please enter your name:" << std::endl;
     std::string name;
     std::cin >> name;
     std::cout << "Please enter the time of year when you were born:" << "\n"
