@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void PrintHelloCLion() {
-    puts("Hello from CLion IDE");
+    puts("Hello World!");
 }
 
 
