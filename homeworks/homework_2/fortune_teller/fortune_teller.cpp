@@ -28,6 +28,7 @@ int main() {
     std::string another_adjective;
     std::cin >> another_adjective;
     adjectives.push_back(another_adjective);
+    std::cout << "\n";
     std::cout << "Here is your description:" << std::endl;
     std::cout << name << ", the " << adjectives.at(name.size() % adjectives.size()) << " "
     << nouns.at(month)<< " that " <<  endings.at(name.size() % endings.size()) << std::endl;
