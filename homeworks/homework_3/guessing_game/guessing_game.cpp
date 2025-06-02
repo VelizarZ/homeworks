@@ -34,6 +34,7 @@ int main() {
         } else {
             std::cout << "You have done it! " << "You guessed the number "
                 << correct_num << " in " << k << " guesses!" << std::endl;
+            break;
         }
     }
 
