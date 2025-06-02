@@ -16,18 +16,19 @@ int main() {
     std::cout << "Please enter your name: " << std::endl;
     std::string name;
     std::cin >> name;
-    std::cout << "Please enter the time of year when you were born: "
+    std::cout << "Please enter the time of year when you were born:" << "\n"
        << "(pick from 'spring', 'summer', 'autumn', 'winter')" << std::endl;
     std::string month;
     std::cin >> month;
-    std::cout << "Please enter an adjective: " << std::endl;
+    std::cout << "Please enter an adjective:" << std::endl;
     std::string adjective;
     std::cin >> adjective;
     adjectives.push_back(adjective);
-    std::cout << "Please enter another adjective: " << std::endl;
+    std::cout << "Please enter another adjective:" << std::endl;
     std::string another_adjective;
     std::cin >> another_adjective;
     adjectives.push_back(another_adjective);
+    std::cout << "Here is your description:" << std::endl;
     std::cout << name << ", the " << adjectives.at(name.size() % adjectives.size()) << " "
     << nouns.at(month)<< " that " <<  endings.at(name.size() % endings.size()) << std::endl;
 }
